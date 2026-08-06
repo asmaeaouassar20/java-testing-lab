@@ -29,7 +29,7 @@ public class PlayerStatistics {
         }
         return new Double[]{goalsPerGame() , gamesPerGoal()};
     }
-    public  static Player getYoungerPlayer(Player player1 , Player player2){
+    public static Player getYoungerPlayer(Player player1 , Player player2){
         if(player2.getAge() < player1.getAge()){
             return player2;
         }
