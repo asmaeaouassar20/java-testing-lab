@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71a36ff5-c102-4eab-942f-2c12e04ac0fc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Player-Statistics-App/src/test/java/PlayerStatisticsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Player-Statistics-App/src/test/java/PlayerStatisticsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,21 +53,22 @@
     "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.PlayerStatisticsTest.underThirtyFalse">
-    <configuration name="PlayerStatisticsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PlayerStatisticsTest.csvReportNotNull">
+    <configuration name="PlayerStatisticsTest.csvReportNotNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PlayerStatisticsTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="csvReportNotNull" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerStatisticsTest.playerNamesNotEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlayerStatisticsTest.csvReportNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PlayerStatisticsTest" />
-      <option name="METHOD_NAME" value="playerNamesNotEqual" />
+      <option name="METHOD_NAME" value="csvReportNull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlayerStatisticsTest.csvReportNotNull" />
+        <item itemvalue="JUnit.PlayerStatisticsTest.csvReportNull" />
         <item itemvalue="JUnit.PlayerStatisticsTest.underThirtyFalse" />
         <item itemvalue="JUnit.PlayerStatisticsTest.underThirtyTrue" />
         <item itemvalue="JUnit.PlayerStatisticsTest.youngerPlayerSame" />
-        <item itemvalue="JUnit.PlayerStatisticsTest.playerNamesNotEqual" />
-        <item itemvalue="JUnit.PlayerStatisticsTest" />
       </list>
     </recent_temporary>
   </component>

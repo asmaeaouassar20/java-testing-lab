@@ -36,4 +36,16 @@ public class PlayerStatisticsTest {
         PlayerStatistics statistics = new PlayerStatistics(player,1,1);
         assertFalse(statistics.underThirty());
     }
+    @Test
+    public void csvReportNull(){
+        Player player = new Player("Asmae",23);
+        PlayerStatistics statistics = new PlayerStatistics(player,0,5);
+        assertNull(statistics.createCsvRecord());
+    }
+    @Test
+    public void csvReportNotNull(){
+        Player player = new Player("Asmae",23);
+        PlayerStatistics statistics = new PlayerStatistics(player,2,5);
+        assertNotNull(statistics.createCsvRecord());
+    }
 }
