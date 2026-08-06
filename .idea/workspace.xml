@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71a36ff5-c102-4eab-942f-2c12e04ac0fc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_14_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_14_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Player-Statistics-App/src/test/java/PlayerStatisticsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player-Statistics-App/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Player-Statistics-App/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player-Statistics-App/src/main/java/org/algostyle/PlayerStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/Player-Statistics-App/src/main/java/org/algostyle/PlayerStatistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player-Statistics-App/src/test/java/PlayerStatisticsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Player-Statistics-App/src/test/java/PlayerStatisticsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +52,7 @@
     "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.PlayerStatisticsTest.youngerPlayerSame">
+  <component name="RunManager" selected="JUnit.PlayerStatisticsTest.underThirtyFalse">
     <configuration name="PlayerStatisticsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <option name="PACKAGE_NAME" value="" />
@@ -70,21 +62,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerStatisticsTest.playerNameEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PlayerStatisticsTest" />
-      <option name="METHOD_NAME" value="playerNameEqual" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PlayerStatisticsTest.playerNamesNotEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PlayerStatisticsTest" />
       <option name="METHOD_NAME" value="playerNamesNotEqual" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerStatisticsTest.underThirtyFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlayerStatisticsTest" />
+      <option name="METHOD_NAME" value="underThirtyFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerStatisticsTest.underThirtyTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlayerStatisticsTest" />
+      <option name="METHOD_NAME" value="underThirtyTrue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,10 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlayerStatisticsTest.underThirtyFalse" />
+        <item itemvalue="JUnit.PlayerStatisticsTest.underThirtyTrue" />
         <item itemvalue="JUnit.PlayerStatisticsTest.youngerPlayerSame" />
         <item itemvalue="JUnit.PlayerStatisticsTest.playerNamesNotEqual" />
         <item itemvalue="JUnit.PlayerStatisticsTest" />
-        <item itemvalue="JUnit.PlayerStatisticsTest.playerNameEqual" />
       </list>
     </recent_temporary>
   </component>
