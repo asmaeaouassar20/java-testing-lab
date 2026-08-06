@@ -48,4 +48,13 @@ public class PlayerStatisticsTest {
         PlayerStatistics statistics = new PlayerStatistics(player,2,5);
         assertNotNull(statistics.createCsvRecord());
     }
+    @Test
+    public void getCsvStatsRecord(){
+        Player player = new Player("Asmae",23);
+        PlayerStatistics statistics = new PlayerStatistics(player,4,8);
+        Double[] resultArray = statistics.createCsvRecord();
+        Double[] expectedArray = {2d , 0.5};
+        assertEquals(2,expectedArray.length);
+        assertArrayEquals(expectedArray, resultArray);
+    }
 }

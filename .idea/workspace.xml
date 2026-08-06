@@ -53,7 +53,7 @@
     "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.PlayerStatisticsTest.csvReportNotNull">
+  <component name="RunManager" selected="JUnit.PlayerStatisticsTest.getCsvStatsRecord">
     <configuration name="PlayerStatisticsTest.csvReportNotNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <option name="PACKAGE_NAME" value="" />
@@ -69,6 +69,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PlayerStatisticsTest" />
       <option name="METHOD_NAME" value="csvReportNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerStatisticsTest.getCsvStatsRecord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlayerStatisticsTest" />
+      <option name="METHOD_NAME" value="getCsvStatsRecord" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,23 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerStatisticsTest.youngerPlayerSame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PlayerStatisticsTest" />
-      <option name="METHOD_NAME" value="youngerPlayerSame" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlayerStatisticsTest.getCsvStatsRecord" />
         <item itemvalue="JUnit.PlayerStatisticsTest.csvReportNotNull" />
         <item itemvalue="JUnit.PlayerStatisticsTest.csvReportNull" />
         <item itemvalue="JUnit.PlayerStatisticsTest.underThirtyFalse" />
         <item itemvalue="JUnit.PlayerStatisticsTest.underThirtyTrue" />
-        <item itemvalue="JUnit.PlayerStatisticsTest.youngerPlayerSame" />
       </list>
     </recent_temporary>
   </component>
