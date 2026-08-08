@@ -1,0 +1,7 @@
+package org.algostyle;
+
+public class InvalidCardNumber extends RuntimeException{
+    public InvalidCardNumber(String message){
+        super(message);
+    }
+}
