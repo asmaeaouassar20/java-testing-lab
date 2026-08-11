@@ -11,10 +11,10 @@ public class NewsletterSender {
         this.messagingEngine = messagingEngine;
     }
     public void sendNewsletter(String subject)  {
-        List<String> emails = subscribersDatabase.getEmailsSubscribers();
-        if(emails.size() == 0){
+        if(getNumberOfSubscribers() == 0){
             throw new ZeroSubscribersException();
         }
+        List<String> emails = subscribersDatabase.getEmailsSubscribers();
         messagingEngine.sendEmail(subject, emails);
     }
     public int getNumberOfSubscribers(){

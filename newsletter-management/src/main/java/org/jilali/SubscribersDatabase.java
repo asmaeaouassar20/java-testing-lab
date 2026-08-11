@@ -6,7 +6,9 @@ import java.util.List;
 
 public class SubscribersDatabase {
     public List<String> getEmailsSubscribers(){
-        List<String> emailsSubscribers = new ArrayList<String>();
+        List<String> emailsSubscribers = new ArrayList<>();
+        // connection à la base de donné
+        /*
         try{
             Connection connection = DriverManager.getConnection("DB_URL");
             Statement s = connection.createStatement();
@@ -16,7 +18,7 @@ public class SubscribersDatabase {
             }
         }catch (SQLException e){
             e.printStackTrace();
-        }
+        }*/
         return emailsSubscribers;
     }
 }
