@@ -13,4 +13,8 @@ public class PlayerScoreCalculator {
     public int getResScore(){
         return this.resScore;
     }
+
+    public float getSpecificScore(int score){
+        return score*0.69F;
+    }
 }

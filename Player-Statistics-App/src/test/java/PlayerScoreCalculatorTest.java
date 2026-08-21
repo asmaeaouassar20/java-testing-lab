@@ -10,7 +10,7 @@ public class PlayerScoreCalculatorTest {
 
     @BeforeEach
     public void setup(){
-        PlayerScoreCalculator sc=new PlayerScoreCalculator();
+        sc=new PlayerScoreCalculator();
     }
 
     @Test
@@ -28,4 +28,10 @@ public class PlayerScoreCalculatorTest {
         sc.calculateResScore(50,-10);
         assertEquals(-1 , sc.getResScore());
     }
+    @Test
+    void getSpecificScoreHappyPath(){
+        assertEquals(3.45F, sc.getSpecificScore(5));
+    }
+
+
 }
