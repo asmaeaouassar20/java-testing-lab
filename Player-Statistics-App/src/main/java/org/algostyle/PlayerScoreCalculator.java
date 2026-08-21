@@ -14,7 +14,17 @@ public class PlayerScoreCalculator {
         return this.resScore;
     }
 
-    public float getSpecificScore(int score){
+    public Float getSpecificScore(Integer score){
+        if(score==null){
+            return 0F;
+        }
+        score = verifyScoreArgument(score);
         return score*0.69F;
+    }
+    private Integer verifyScoreArgument(int score){
+        if(score>10 || score<0 || score==(int)Double.NaN){
+            throw new IllegalArgumentException("Calculator cannot accept score value : " + score);
+        }
+        return  score;
     }
 }
