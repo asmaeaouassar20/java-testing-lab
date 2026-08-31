@@ -1,4 +1,4 @@
-package org.jilali;
+package org.algostyle;
 
 import java.util.List;
 

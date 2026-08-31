@@ -1,7 +1,7 @@
-import org.jilali.MessagingEngine;
-import org.jilali.NewsletterSender;
-import org.jilali.SubscribersDatabase;
-import org.jilali.ZeroSubscribersException;
+import org.algostyle.MessagingEngine;
+import org.algostyle.NewsletterSender;
+import org.algostyle.SubscribersDatabase;
+import org.algostyle.ZeroSubscribersException;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;

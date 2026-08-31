@@ -1,4 +1,4 @@
-package org.jilali;
+package org.algostyle;
 
 public class ZeroSubscribersException extends RuntimeException{
     public ZeroSubscribersException(){

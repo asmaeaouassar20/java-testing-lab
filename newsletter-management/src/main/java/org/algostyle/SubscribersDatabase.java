@@ -1,6 +1,5 @@
-package org.jilali;
+package org.algostyle;
 
-import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 

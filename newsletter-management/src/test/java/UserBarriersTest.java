@@ -1,6 +1,6 @@
-import org.jilali.barrieres.EmailService;
-import org.jilali.barrieres.UserBarriers;
-import org.jilali.barrieres.UserRepository;
+import org.algostyle.barrieres.EmailService;
+import org.algostyle.barrieres.UserBarriers;
+import org.algostyle.barrieres.UserRepository;
 import org.junit.jupiter.api.Test;
 
 import static org.mockito.Mockito.mock;

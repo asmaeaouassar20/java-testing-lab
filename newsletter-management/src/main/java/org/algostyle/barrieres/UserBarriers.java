@@ -1,4 +1,4 @@
-package org.jilali.barrieres;
+package org.algostyle.barrieres;
 
 public class UserBarriers {
     private  UserRepository userRepository;
