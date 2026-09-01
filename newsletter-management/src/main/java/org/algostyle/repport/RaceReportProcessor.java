@@ -24,7 +24,7 @@ public class RaceReportProcessor {
         // combine tw reports into one and save it
     }
 
-    <T> List<T> readFileToObjectList(FileInputStream driverFile) throws IOException, ClassNotFoundException{
+    <T> List<T> readFileToObjectList(FileInputStream driverFile) {
         return new ArrayList<>();
     }
 }
