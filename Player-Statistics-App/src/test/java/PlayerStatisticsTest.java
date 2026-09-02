@@ -3,6 +3,7 @@ import org.algostyle.PlayerStatistics;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class PlayerStatisticsTest {
@@ -21,44 +22,44 @@ public class PlayerStatisticsTest {
     public void playerNamesEqual(){
         System.out.println("test 1");
         Player player2 = new Player("Asmae" , 20);
-        assertEquals(playerUnderThirty,player2);
+        assertThat(player2).isEqualTo(playerUnderThirty);
     }
     @Test
     public void playerNamesNotEqual(){
         System.out.println("test 2");
         Player player2 = new Player("ali" , 20);
-        assertNotEquals(playerUnderThirty,player2);
+        assertThat(player2).isNotEqualTo(playerUnderThirty);
     }
     @Test
     public void youngerPlayerSame(){
         System.out.println("test 3");
         Player player2 = new Player("Asmae" , 25);
-        assertSame( player2, PlayerStatistics.getYoungerPlayer(playerUnderThirty,player2));
+        assertThat(PlayerStatistics.getYoungerPlayer(playerUnderThirty,player2)).isSameAs(player2);
     }
     @Test
     public void underThirtyTrue(){
         System.out.println("test 4");
         PlayerStatistics statistics = new PlayerStatistics(playerUnderThirty,1,1);
-        assertTrue(statistics.underThirty());
+        assertThat(statistics.underThirty()).isTrue();
     }
     @Test
     public void underThirtyFalse(){
         System.out.println("test 5");
         Player player = new Player("Asmae",33);
         PlayerStatistics statistics = new PlayerStatistics(player,1,1);
-        assertFalse(statistics.underThirty());
+        assertThat(statistics.underThirty()).isFalse();
     }
     @Test
     public void csvReportNull(){
         System.out.println("test 6");
         PlayerStatistics statistics = new PlayerStatistics(playerUnderThirty,0,5);
-        assertNull(statistics.createCsvRecord());
+        assertThat(statistics.createCsvRecord()).isNull();
     }
     @Test
     public void csvReportNotNull(){
         System.out.println("test 7");
         PlayerStatistics statistics = new PlayerStatistics(playerUnderThirty,2,5);
-        assertNotNull(statistics.createCsvRecord());
+        assertThat(statistics.createCsvRecord()).isNotNull();
     }
     @Test
     public void getCsvStatsRecord(){
@@ -67,6 +68,6 @@ public class PlayerStatisticsTest {
         Double[] resultArray = statistics.createCsvRecord();
         Double[] expectedArray = {2d , 0.5};
         assertEquals(2,expectedArray.length);
-        assertArrayEquals(expectedArray, resultArray);
+        assertThat(resultArray).isEqualTo(expectedArray);
     }
 }
