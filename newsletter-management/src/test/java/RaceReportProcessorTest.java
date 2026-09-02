@@ -1,3 +1,4 @@
+import com.googlecode.catchexception.CatchException;
 import org.algostyle.repport.RaceReportProcessor;
 import org.junit.jupiter.api.Test;
 
@@ -5,8 +6,7 @@ import java.io.FileNotFoundException;
 
 import static  com.googlecode.catchexception.CatchException.catchException;
 import static com.googlecode.catchexception.CatchException.caughtException;
-import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class RaceReportProcessorTest {
 
@@ -37,6 +37,7 @@ public class RaceReportProcessorTest {
         String raceFile = "race/race.csv";
 
         catchException(()->reportProcessor.generateReport(driverFile,raceFile));
-        assertTrue(caughtException() instanceof FileNotFoundException);;
+        assertTrue(caughtException() instanceof FileNotFoundException);
+        assertEquals("drivers\\drivernotexist.csv (Le fichier spécifié est introuvable)", caughtException().getMessage());
     }
 }
