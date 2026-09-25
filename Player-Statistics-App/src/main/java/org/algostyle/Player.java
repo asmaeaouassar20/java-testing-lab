@@ -50,4 +50,8 @@ public class Player {
         }
         return true;
     }
+
+    public boolean isMajor(){
+        return age>18;
+    }
 }
